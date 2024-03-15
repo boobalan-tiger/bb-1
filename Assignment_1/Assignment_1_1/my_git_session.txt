@@ -1,0 +1,627 @@
+Script started on Thu 14 Mar 2024 06:07:04 AM UTC
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ git init
+Initialized empty Git repository in /vagrant/myproject/.git/
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ s[Kls a-l [K[K[K[K-al
+total 12
+drwxrwxrwx 1 vagrant vagrant    0 Mar 14 06:07 [0m[34;42m.[0m
+drwxrwxrwx 1 vagrant vagrant 8192 Mar 14 06:06 [34;42m..[0m
+drwxrwxrwx 1 vagrant vagrant 4096 Mar 14 06:07 [34;42m.git[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ git clone https://github.com/libgit2/libgit2 mylibgit
+Cloning into 'mylibgit'...
+^C
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ ls
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ ls -l
+total 0
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ ls a-l
+ls: cannot access a-l: No such file or directory
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ ls -al
+total 12
+drwxrwxrwx 1 vagrant vagrant    0 Mar 14 06:11 [0m[34;42m.[0m
+drwxrwxrwx 1 vagrant vagrant 8192 Mar 14 06:06 [34;42m..[0m
+drwxrwxrwx 1 vagrant vagrant 4096 Mar 14 06:07 [34;42m.git[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ cd ..
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrantvagrant@vagrant-ubuntu-trusty-64:/vagrant$ ls
+[0m[34;42mAppData[0m                [34;42mMy Documents[0m                                                                                  [34;42mPrintHood[0m
+[34;42mApplication Data[0m       [34;42mmyproject[0m                                                                                     [34;42mRecent[0m
+[34;42mContacts[0m               [34;42mNetHood[0m                                                                                       [34;42mSaved Games[0m
+[34;42mCookies[0m                [01;32mNTUSER.DAT[0m                                                                                    [34;42mSearches[0m
+[34;42mDesktop[0m                [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf[0m                                       [34;42mSendTo[0m
+[34;42mDocuments[0m              [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms[0m  [34;42mStart Menu[0m
+[34;42mDownloads[0m              [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms[0m  [34;42mTemplates[0m
+[34;42mFavorites[0m              [01;32mntuser.dat.LOG1[0m                                                                               [01;32mVagrantfile[0m
+[34;42mIntelGraphicsProfiles[0m  [01;32mntuser.dat.LOG2[0m                                                                               [34;42mVideos[0m
+[34;42mLinks[0m                  [01;32mntuser.ini[0m                                                                                    [34;42mVirtualBox VMs[0m
+[34;42mLocal Settings[0m         [34;42mOneDrive[0m
+[34;42mMusic[0m                  [34;42mPictures[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrantvagrant@vagrant-ubuntu-trusty-64:/vagrant$ ls
+[0m[34;42mAppData[0m                [34;42mMy Documents[0m                                                                                  [34;42mPrintHood[0m
+[34;42mApplication Data[0m       [34;42mmyproject[0m                                                                                     [34;42mRecent[0m
+[34;42mContacts[0m               [34;42mNetHood[0m                                                                                       [34;42mSaved Games[0m
+[34;42mCookies[0m                [01;32mNTUSER.DAT[0m                                                                                    [34;42mSearches[0m
+[34;42mDesktop[0m                [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf[0m                                       [34;42mSendTo[0m
+[34;42mDocuments[0m              [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms[0m  [34;42mStart Menu[0m
+[34;42mDownloads[0m              [01;32mNTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms[0m  [34;42mTemplates[0m
+[34;42mFavorites[0m              [01;32mntuser.dat.LOG1[0m                                                                               [01;32mVagrantfile[0m
+[34;42mIntelGraphicsProfiles[0m  [01;32mntuser.dat.LOG2[0m                                                                               [34;42mVideos[0m
+[34;42mLinks[0m                  [01;32mntuser.ini[0m                                                                                    [34;42mVirtualBox VMs[0m
+[34;42mLocal Settings[0m         [34;42mOneDrive[0m
+[34;42mMusic[0m                  [34;42mPictures[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrantvagrant@vagrant-ubuntu-trusty-64:/vagrant$ pwd
+/vagrant
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrantvagrant@vagrant-ubuntu-trusty-64:/vagrant$ cd myproject/
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ ls[K[Kmk==[K[K[K[Kmkdir repos
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ cd repos
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/reposvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos$ git clone https://github.com/libgit2/libgit2 mylibgit
+Cloning into 'mylibgit'...
+^C
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/reposvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos$ git clone https://github.com/libgit2/libgit2 mylibgit[K[Khttps://github.com/boobalan-tiger/bb-1.git
+Cloning into 'bb-1'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/reposvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos$ pwd
+/vagrant/myproject/repos
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/reposvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos$ ls
+[0m[34;42mbb-1[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/reposvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos$ cd ..
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ ls
+[0m[34;42mrepos[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ ls-al[K[K[K -al 
+total 12
+drwxrwxrwx 1 vagrant vagrant    0 Mar 14 06:12 [0m[34;42m.[0m
+drwxrwxrwx 1 vagrant vagrant 8192 Mar 14 06:06 [34;42m..[0m
+drwxrwxrwx 1 vagrant vagrant 4096 Mar 14 06:07 [34;42m.git[0m
+drwxrwxrwx 1 vagrant vagrant    0 Mar 14 06:13 [34;42mrepos[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ r, -rf .git/
+r,: command not found
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ r, -rf .git/[1P[1@m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ ls
+[0m[34;42mrepos[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myprojectvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject$ cd repos/
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/reposvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos$ ls
+[0m[34;42mbb-1[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/reposvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos$ cd [K[K[Kmkdir bb-2
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/reposvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos$ cd bb-2
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-2vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-2$ git init
+Initialized empty Git repository in /vagrant/myproject/repos/bb-2/.git/
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-2vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-2$ ls -al 
+total 4
+drwxrwxrwx 1 vagrant vagrant    0 Mar 14 06:14 [0m[34;42m.[0m
+drwxrwxrwx 1 vagrant vagrant    0 Mar 14 06:13 [34;42m..[0m
+drwxrwxrwx 1 vagrant vagrant 4096 Mar 14 06:14 [34;42m.git[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-2vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-2$ ls
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-2vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-2$ cd ..
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/reposvagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos$ cd bb-1
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ ls
+[0m[01;32mREADME.md[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+
+nothing to commit, working directory clean
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git add README
+fatal: pathspec 'README' did not match any files
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git add README[4Pstatus
+On branch main
+Your branch is up-to-date with 'origin/main'.
+
+nothing to commit, working directory clean
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ ls
+[0m[01;32mREADME.md[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ touch test.tes[K[K[Kc[Kdoc
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ touch test.docls[Kgit status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mtest.doc[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git add test.cod[K[K[Kdoc
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git add test.doc[6Pstatus
+On branch main
+Your branch is up-to-date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   test.doc[m
+
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ l
+[0m[01;32mREADME.md[0m*  [01;32mtest.doc[0m*
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ ls
+[0m[01;32mREADME.md[0m  [01;32mtest.doc[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ vi README.md 
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;35r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[35;1H"README.md" [noeol] 1L, 6C[>c[1;1H[35m# bb-1[m
+[94m~                                                                                                                                                   [3;1H~                                                                                                                                                   [4;1H~                                                                                                                                                   [5;1H~                                                                                                                                                   [6;1H~                                                                                                                                                   [7;1H~                                                                                                                                                   [8;1H~                                                                                                                                                   [9;1H~                                                                                                                                                   [10;1H~                                                                                                                                                   [11;1H~                                                                                                                                                   [12;1H~                                                                                                                                                   [13;1H~                                                                                                                                                   [14;1H~                                                                                                                                                   [15;1H~                                                                                                                                                   [16;1H~                                                                                                                                                   [17;1H~                                                                                                                                                   [18;1H~                                                                                                                                                   [19;1H~                                                                                                                                                   [20;1H~                                                                                                                                                   [21;1H~                                                                                                                                                   [22;1H~                                                                                                                                                   [23;1H~                                                                                                                                                   [24;1H~                                                                                                                                                   [25;1H~                                                                                                                                                   [26;1H~                                                                                                                                                   [27;1H~                                                                                                                                                   [28;1H~                                                                                                                                                   [29;1H~                                                                                                                                                   [30;1H~                                                                                                                                                   [31;1H~                                                                                                                                                   [32;1H~                                                                                                                                                   [33;1H~                                                                                                                                                   [34;1H~                                                                                                                                                   [m[35;131H1,1[11CAll[1;1H[?12l[?25h[?25l
+[35m# bb-1[m[2;7H[K[35;131H2[2;1H[?12l[?25h[?25l[35;1H[K[35;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l"README.md" 2L, 14C written
+[?1l>[?12l[?25h[?1049l]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ vi README.md ls[K[Kgit status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   test.doc[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   README.md[m
+
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git statusvi README.md ls[K[K[Kgit add *
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git add *status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   README.md[m
+	[32mnew file:   test.doc[m
+
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git status[1Padd *statusvi README.md 
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;35r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[35;1H"README.md" 2L, 14C[>c[1;1H[35m# bb-1
+# bb-1[m
+[94m~                                                                                                                                                   [4;1H~                                                                                                                                                   [5;1H~                                                                                                                                                   [6;1H~                                                                                                                                                   [7;1H~                                                                                                                                                   [8;1H~                                                                                                                                                   [9;1H~                                                                                                                                                   [10;1H~                                                                                                                                                   [11;1H~                                                                                                                                                   [12;1H~                                                                                                                                                   [13;1H~                                                                                                                                                   [14;1H~                                                                                                                                                   [15;1H~                                                                                                                                                   [16;1H~                                                                                                                                                   [17;1H~                                                                                                                                                   [18;1H~                                                                                                                                                   [19;1H~                                                                                                                                                   [20;1H~                                                                                                                                                   [21;1H~                                                                                                                                                   [22;1H~                                                                                                                                                   [23;1H~                                                                                                                                                   [24;1H~                                                                                                                                                   [25;1H~                                                                                                                                                   [26;1H~                                                                                                                                                   [27;1H~                                                                                                                                                   [28;1H~                                                                                                                                                   [29;1H~                                                                                                                                                   [30;1H~                                                                                                                                                   [31;1H~                                                                                                                                                   [32;1H~                                                                                                                                                   [33;1H~                                                                                                                                                   [34;1H~                                                                                                                                                   [m[35;131H1,1[11CAll[1;1H[?12l[?25h[?25l[35;1H[1m-- REPLACE --[m[35;14H[K[35;131H1,1[11CAll[?12l[?25h[?25l[35;131H2[2;1H[?12l[?25h[35;1H[K[2;1H[?25l[35;131H2,1[11CAll[2;1H[?12l[?25h[?25l[94m~                                                                                                                                                   [m[35;131H1[1;1H[?12l[?25h[?25l[35;1H[1m-- INSERT --[m[35;131H[K[35;131H1,1[11CAll[1;1H[?12l[?25h[?25l[1C[35m# bb-1[m[35;133H2[1;2H[?12l[?25h[35;1H[K[1;1H[?25l[35;131H1,1[11CAll[1;1H[?12l[?25h[?25l[35;131H[K[35;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l"README.md" 1L, 8C written
+[?1l>[?12l[?25h[?1049l]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ vi README.md [3Pgit status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   README.md[m
+	[32mnew file:   test.doc[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   README.md[m
+
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git remote -v
+origin	https://github.com/boobalan-tiger/bb-1.git (fetch)
+origin	https://github.com/boobalan-tiger/bb-1.git (push)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git tag
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ ls
+[0m[01;32mREADME.md[0m  [01;32mtest.doc[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git branch --all
+* [32mmain[m
+  [31mremotes/origin/HEAD[m -> origin/main
+  [31mremotes/origin/main[m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   README.md[m
+	[32mnew file:   test.doc[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   README.md[m
+
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git commiy[Kt -am "update b[KReadme"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <vagrant@vagrant-ubuntu-trusty-64.(none)>) not allowed
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$  git config --global user.email "booo[Kbalan.amn[K[Knbalag@tigeranalty=[K[K[Kicstics0ics[1Pics[C[C[C[Cytics[C[C[C[C.com"
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git config --global user.name "Your Name"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"B"o"o"b"a"l"a"n"
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git config --global user.name "Boobalan"[10Pmmit -am "update Readme"status[K
+On branch main
+Your branch is up-to-date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   README.md[m
+	[32mnew file:   test.doc[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   README.md[m
+
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git statusconfig --global user.name "Boobalan"[10Pmmit -am "update Readme"status[Kbranch --all[6Pstatuscommit -am "update Readme"
+[main 9b33320] update Readme
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 test.doc
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': git config --global push.default matching^C
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': boobalan.anbalag@tigeranaltyci===       ytics.com
+Password for 'https://boobalan.anbalag@tigeranalytics.com@github.com': 
+fatal: Authentication failed for 'https://github.com/boobalan-tiger/bb-1.git/'
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ ls
+[0m[01;32mREADME.md[0m  [01;32mtest.doc[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git checkout -b iss53
+Switched to a new branch 'iss53'
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ vi index.g[Khtml
+[?1049h[?1h=[2;1H▽[6n[1;1H  [1;1H[1;35r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[35;1H"index.html" [New File][>c[2;1H[94m~                                                                                                                                                   [3;1H~                                                                                                                                                   [4;1H~                                                                                                                                                   [5;1H~                                                                                                                                                   [6;1H~                                                                                                                                                   [7;1H~                                                                                                                                                   [8;1H~                                                                                                                                                   [9;1H~                                                                                                                                                   [10;1H~                                                                                                                                                   [11;1H~                                                                                                                                                   [12;1H~                                                                                                                                                   [13;1H~                                                                                                                                                   [14;1H~                                                                                                                                                   [15;1H~                                                                                                                                                   [16;1H~                                                                                                                                                   [17;1H~                                                                                                                                                   [18;1H~                                                                                                                                                   [19;1H~                                                                                                                                                   [20;1H~                                                                                                                                                   [21;1H~                                                                                                                                                   [22;1H~                                                                                                                                                   [23;1H~                                                                                                                                                   [24;1H~                                                                                                                                                   [25;1H~                                                                                                                                                   [26;1H~                                                                                                                                                   [27;1H~                                                                                                                                                   [28;1H~                                                                                                                                                   [29;1H~                                                                                                                                                   [30;1H~                                                                                                                                                   [31;1H~                                                                                                                                                   [32;1H~                                                                                                                                                   [33;1H~                                                                                                                                                   [34;1H~                                                                                                                                                   [m[35;131H0,0-1[9CAll[1;1H[?12l[?25h[?25l[35;1H[1m-- INSERT --[m[35;14H[K[35;131H0,1[11CAll[1;1H[?12l[?25h[?25lh[35;131H1,2[1;2H[?12l[?25h[?25li[35;133H3[1;3H[?12l[?25h[35;1H[K[1;2H[?25l[35;131H1,2[11CAll[1;2H[?12l[?25h[?25l[35;131H[K[35;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h![?25l[?12l[?25h[?25l"index.html" [New] 1L, 3C written
+[?1l>[?12l[?25h[?1049l]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$  git commit -a -m 'Create new footer [issue 53]'
+On branch iss53
+Untracked files:
+	[31mindex.html[m
+
+nothing added to commit but untracked files present
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ ls
+[0m[01;32mindex.html[0m  [01;32mREADME.md[0m  [01;32mtest.doc[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git.
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git checkout master[Kgit checkout master[Kgit branch --all
+* [32miss53[m
+  main[m
+  [31mremotes/origin/HEAD[m -> origin/main
+  [31mremotes/origin/main[m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git branch --allcheckout master[K[K[K[Kin
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': 
+Password for 'https://github.com': 
+
+fatal: Authentication failed for 'https://github.com/boobalan-tiger/bb-1.git/'
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ 
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git pushcheckout main[1Pbranch --allcheckout master[3Pbranch --all
+  iss53[m
+* [32mmain[m
+  [31mremotes/origin/HEAD[m -> origin/main
+  [31mremotes/origin/main[m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ gut[K[K[Kgit checkout iss53 
+Switched to branch 'iss53'
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git branch --move iss53 i2345
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git branch --move iss53 i2345[10Pcheckout iss53 [3Pbranch --all
+* [32mi2345[m
+  main[m
+  [31mremotes/origin/HEAD[m -> origin/main
+  [31mremotes/origin/main[m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git branch --all
+* [32mi2345[m
+  main[m
+  [31mremotes/origin/HEAD[m -> origin/main
+  [31mremotes/origin/main[m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git fetch origin
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ cd ~/.ssh
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/.sshvagrant@vagrant-ubuntu-trusty-64:~/.ssh$ ls
+authorized_keys
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/.sshvagrant@vagrant-ubuntu-trusty-64:~/.ssh$ ssh-keygen -o
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/vagrant/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/vagrant/.ssh/id_rsa.
+Your public key has been saved in /home/vagrant/.ssh/id_rsa.pub.
+The key fingerprint is:
+39:26:00:39:49:6b:3e:04:ba:b9:2e:1a:24:36:d4:66 vagrant@vagrant-ubuntu-trusty-64
+The key's randomart image is:
++--[ RSA 2048]----+
+|..oo             |
+|..=o             |
+|..+E.            |
+|.*o  .   .       |
+|++o   . S        |
+|+...   o .       |
+|o                |
+|o.               |
+|+.               |
++-----------------+
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/.sshvagrant@vagrant-ubuntu-trusty-64:~/.ssh$ ls -al
+total 20
+drwx------ 2 vagrant vagrant 4096 Mar 14 11:05 [0m[01;34m.[0m
+drwxr-xr-x 6 vagrant vagrant 4096 Mar 14 07:49 [01;34m..[0m
+-rw------- 1 vagrant vagrant  466 Mar 11 10:13 authorized_keys
+-rw------- 1 vagrant vagrant 1843 Mar 14 11:05 id_rsa
+-rw-r--r-- 1 vagrant vagrant  414 Mar 14 11:05 id_rsa.pub
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/.sshvagrant@vagrant-ubuntu-trusty-64:~/.ssh$ cat ifd[K[Kd_rsa.pub 
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEITKWY7dnglekAnBpWUGTV3GKa54LZWHJ2MR/VJpDqQyLF1WiG60Mx1P6T0q7ncTfPH1OMGxibBKP5mTM7Jw4h4dbEirKJvD0DykJX5B24xpIkvLKkQDiGPLOTfOqoLoY0m+pQMYjQeC6no050Eqt9esKBQYEQa7HvZkl53405YIFDfr5dbpVBI9VSTwqq5KBSA6Qwnh3zuE3v9Q/1OVSXmnl4Tc946JvwFdmzOY9Ca3dBE7R1sPGLNnUdvuLenRmK7mmvGk9eFQ62NQGGQ5lI9u5XAG2a9g8uGytl/PA5I7LatDZyCpCDTIGGriI12SfjhLw+jqZn+RSCkB9Oo4j vagrant@vagrant-ubuntu-trusty-64
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/.sshvagrant@vagrant-ubuntu-trusty-64:~/.ssh$ ^C
+]0;vagrant@vagrant-ubuntu-trusty-64: ~/.sshvagrant@vagrant-ubuntu-trusty-64:~/.ssh$ cd -4[K
+/vagrant/myproject/repos/bb-1
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git status
+On branch i2345
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mindex.html[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git remo[Kote -v
+origin	https://github.com/boobalan-tiger/bb-1.git (fetch)
+origin	https://github.com/boobalan-tiger/bb-1.git (push)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git commit -am "update bb"
+On branch i2345
+Untracked files:
+	[31mindex.html[m
+
+nothing added to commit but untracked files present
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git commit -am "update bb"[13Premote -v[3Pstatus
+On branch i2345
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mindex.html[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git add *
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git add *statuscommit -am "update bb"
+[i2345 2ffc5ec] update bb
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': boobalan.ab nbalag@analtyci    ytics.com
+Password for 'https://boobalan.anbalag@analytics.com@github.com': 
+fatal: Authentication failed for 'https://github.com/boobalan-tiger/bb-1.git/'
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': boobalan.anbalag@tigeranalytics.com
+Password for 'https://boobalan.anbalag@tigeranalytics.com@github.com': 
+fatal: Authentication failed for 'https://github.com/boobalan-tiger/bb-1.git/'
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': boobalan.anbalag@tigeranalytics.com
+Password for 'https://boobalan.anbalag@tigeranalytics.com@github.com': 
+fatal: Authentication failed for 'https://github.com/boobalan-tiger/bb-1.git/'
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ ssh-keygen -t ed25519 -C "boobalan.anbalag@tigeranalytics.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/vagrant/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/vagrant/.ssh/id_ed25519.
+Your public key has been saved in /home/vagrant/.ssh/id_ed25519.pub.
+The key fingerprint is:
+6a:f9:a2:94:f4:27:ab:2a:4d:78:93:1a:62:06:3b:1f boobalan.anbalag@tigeranalytics.com
+The key's randomart image is:
++--[ED25519  256--+
+|                 |
+|                 |
+|                 |
+|.                |
+|.o ..   S        |
+|*oE. o o         |
+|+O oo * .        |
+|o o. ..=         |
+| ...oo...        |
++-----------------+
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ ls ~/.ssh/
+authorized_keys  id_ed25519  id_ed25519.pub  id_rsa  id_rsa.pub
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ eval "$(ssh-agent -s)"
+Agent pid 22894
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ ssh-add ~/.ssh/id_ed25519
+Identity added: /home/vagrant/.ssh/id_ed25519 (/home/vagrant/.ssh/id_ed25519)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$  cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKdIV+pZyQS+ru1I4v73wHqmUVVj0sm6b2143VVUIB32 boobalan.anbalag@tigeranalytics.com
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ ls
+[0m[01;32mindex.html[0m  [01;32mREADME.md[0m  [01;32mtest.doc[0m
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git status
+On branch i2345
+nothing to commit, working directory clean
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ touch bb
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ touch bbgit status
+On branch i2345
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mbb[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git add *
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git add *status
+On branch i2345
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   bb[m
+
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git commit -am "update 2"
+[i2345 2fd41dd] update 2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 bb
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git push
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+In Git 2.0, Git will default to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': boobalan.anbalag@tigeranalytics.com
+Password for 'https://boobalan.anbalag@tigeranalytics.com@github.com': 
+fatal: Authentication failed for 'https://github.com/boobalan-tiger/bb-1.git/'
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git config --global push.default matching
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git config --global push.default matchingpush[K
+Username for 'https://github.com': ^C
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git remote -v
+origin	https://github.com/boobalan-tiger/bb-1.git (fetch)
+origin	https://github.com/boobalan-tiger/bb-1.git (push)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git remote set-url origin git@github.com:^C
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git remote -v[Kgit remote set-url origin git@github.com:boobalan-tiger/bb1.git
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git remote set-url origin git@github.com:boobalan-tiger/bb1.git-v[K
+origin	git@github.com:boobalan-tiger/bb1.git (fetch)
+origin	git@github.com:boobalan-tiger/bb1.git (push)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git push
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ECDSA key fingerprint is 7b:99:81:1e:4c:91:a5:0d:5a:2e:2e:80:13:3f:24:ca.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,20.207.73.82' (ECDSA) to the list of known hosts.
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git pushremote -vset-url origin git@github.com:boobalan-tiger/bb1.git-v[K
+origin	git@github.com:boobalan-tiger/bb1.git (fetch)
+origin	git@github.com:boobalan-tiger/bb1.git (push)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git@github.com:boobalan-tiger/bb-1.git remote -v[K[5Ppushremote -vset-url origin git@github.com:boobalan-tiger/bb1.git-v[K[5Ppushremote -vset-url origin git@github.com:boobalan-tiger/bb1.git-1.git
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ git remote set-url origin git@github.com:boobalan-tiger/bb-1.git-v[K[5Ppushremote -v
+origin	git@github.com:boobalan-tiger/bb-1.git (fetch)
+origin	git@github.com:boobalan-tiger/bb-1.git (push)
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ go[Kit push
+Counting objects: 6, done.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 304 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+remote: To git@github.com:boobalan-tiger/bb-1.git
+   6837b9b..9b33320  main -> main
+]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ [K]0;vagrant@vagrant-ubuntu-trusty-64: /vagrant/myproject/repos/bb-1vagrant@vagrant-ubuntu-trusty-64:/vagrant/myproject/repos/bb-1$ exit
+exit
+
+Script done on Fri 15 Mar 2024 01:01:13 PM UTC
